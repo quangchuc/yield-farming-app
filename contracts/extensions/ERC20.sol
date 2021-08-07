@@ -6,35 +6,36 @@ import "./IERC20.sol";
 import "./IERC20Metadata.sol";
 import "./Context.sol";
 import "./SafeMath.sol";
-
 contract ERC20 is Context, IERC20, IERC20Metadata {
     using SafeMath for uint256;
-
+    
     mapping(address => uint256) private _balances;
-
     mapping(address => mapping(address => uint256)) private _allowances;
 
-    uint256 private _totalSupply;
     string private _name;
     string private _symbol;
+    uint256 private _totalSupply;
 
     constructor(string memory name_, string memory symbol_) {
         _name = name_;
         _symbol = symbol_;
     }
 
-    function name() public virtual override returns (string memory) {
+    function name() public view virtual override returns (string memory) {
         return _name;
     }
 
-    function symbol() public virtual override returns (string memory) {
+    function symbol() public view virtual override returns (string memory) {
         return _symbol;
     }
     
-    function decimals() public virtual override returns (uint8) {
+    function decimals() public view virtual override returns (uint8) {
         return 18;
     }
 
+    function totalSupply() public view virtual override returns (uint256) {
+        return _totalSupply;
+    }
     function balanceOf(address account) public view virtual override returns (uint256) {
         return _balances[account];
     }
@@ -53,11 +54,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return true;
     }
 
-    function transferFrom(
-        address sender, 
-        address recipient, 
-        uint256 amount
-        ) public virtual override returns (bool) {
+    function transferFrom(address sender, address recipient, uint256 amount) public virtual override returns (bool) {
             _transfer(sender, recipient, amount);
 
             uint256 currentAllowance = _allowances[sender][_msgSender()];
@@ -65,9 +62,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
             unchecked {
                 _approve(sender, _msgSender(), currentAllowance - amount);
             }
-
             return true;
-
         }
 
     function increaseAllowance(address spender, uint256 addValue) public virtual returns (bool) {
@@ -81,15 +76,10 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         unchecked {
             _approve(_msgSender(), spender, _allowances[_msgSender()][spender] - substractedValue);
         }
-
         return true;
     }
 
-    function _transfer(
-        address sender,
-        address recipient, 
-        uint256 amount
-    ) internal virtual {
+    function _transfer(address sender, address recipient, uint256 amount) internal virtual {
         require(sender != address(0), "ERC20: transfer from the zero address");
         require(recipient != address(0), "ERC20: transfer to the zero address");
 
@@ -103,9 +93,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _balances[recipient] += amount;
 
         emit Transfer(sender, recipient, amount);
-
         _afterTokenTransfer(sender, recipient, amount);
-
     }
 
     function _mint(address account, uint256 amount) internal virtual {
@@ -118,7 +106,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         emit Transfer(address(0), account, amount);
 
         _afterTokenTransfer(address(0), account, amount);
-
     }
 
     function _burn(address account, uint256 amount) internal virtual {
@@ -146,15 +133,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         emit Approval(owner, spender, amount);
     }
 
-    function _beforeTokenTransfer(
-        address from, 
-        address to, 
-        uint256 amount
-        ) internal virtual {}
+    function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual {}
 
-    function _afterTokenTransfer(
-        address from, 
-        address to, 
-        uint256 amount
-    ) internal virtual {}
+    function _afterTokenTransfer(address from, address to, uint256 amount) internal virtual {}
 }
