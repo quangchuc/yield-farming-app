@@ -8268,22 +8268,22 @@
     "absolutePath": "project:/contracts/FruitToken.sol",
     "exportedSymbols": {
       "Context": [
-        359
+        198
       ],
       "ERC20": [
-        893
+        732
       ],
       "FruitToken": [
         51
       ],
       "IERC20": [
-        962
+        801
       ],
       "IERC20Metadata": [
-        983
+        822
       ],
       "SafeMath": [
-        1096
+        935
       ]
     },
     "id": 52,
@@ -8307,7 +8307,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 52,
-        "sourceUnit": 894,
+        "sourceUnit": 733,
         "src": "62:32:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8320,7 +8320,7 @@
               "id": 3,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 893,
+              "referencedDeclaration": 732,
               "src": "121:5:0"
             },
             "id": 4,
@@ -8329,20 +8329,20 @@
           }
         ],
         "contractDependencies": [
-          359,
-          893,
-          962,
-          983
+          198,
+          732,
+          801,
+          822
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 51,
         "linearizedBaseContracts": [
           51,
-          893,
-          983,
-          962,
-          359
+          732,
+          822,
+          801,
+          198
         ],
         "name": "FruitToken",
         "nodeType": "ContractDefinition",
@@ -8510,7 +8510,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 759,
+                      "referencedDeclaration": 598,
                       "src": "219:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8639,7 +8639,7 @@
                   "id": 8,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 893,
+                  "referencedDeclaration": 732,
                   "src": "178:5:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8835,7 +8835,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 759,
+                      "referencedDeclaration": 598,
                       "src": "423:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8953,22 +8953,22 @@
     "absolutePath": "project:/contracts/FruitToken.sol",
     "exportedSymbols": {
       "Context": [
-        359
+        198
       ],
       "ERC20": [
-        893
+        732
       ],
       "FruitToken": [
         51
       ],
       "IERC20": [
-        962
+        801
       ],
       "IERC20Metadata": [
-        983
+        822
       ],
       "SafeMath": [
-        1096
+        935
       ]
     },
     "id": 52,
@@ -8992,7 +8992,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 52,
-        "sourceUnit": 894,
+        "sourceUnit": 733,
         "src": "62:32:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -9005,7 +9005,7 @@
               "id": 3,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 893,
+              "referencedDeclaration": 732,
               "src": "121:5:0"
             },
             "id": 4,
@@ -9014,20 +9014,20 @@
           }
         ],
         "contractDependencies": [
-          359,
-          893,
-          962,
-          983
+          198,
+          732,
+          801,
+          822
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 51,
         "linearizedBaseContracts": [
           51,
-          893,
-          983,
-          962,
-          359
+          732,
+          822,
+          801,
+          198
         ],
         "name": "FruitToken",
         "nodeType": "ContractDefinition",
@@ -9195,7 +9195,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 759,
+                      "referencedDeclaration": 598,
                       "src": "219:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -9324,7 +9324,7 @@
                   "id": 8,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 893,
+                  "referencedDeclaration": 732,
                   "src": "178:5:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -9520,7 +9520,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 759,
+                      "referencedDeclaration": 598,
                       "src": "423:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -9693,12 +9693,12 @@
         }
       },
       "links": {},
-      "address": "0x859fCA7741d23C757D79705b39c6B0995C7666c9",
-      "transactionHash": "0x25e20820f792c06a2b55343290d3f6879ce6fb07c23caf8828a18e2b80ffc8c3"
+      "address": "0xA989C2a6d2A691962245f8B571F6e106392d0e7f",
+      "transactionHash": "0x67c40731213edbd2b1c614583b7811c26990e4064aeb8e57368ab1c8975e599c"
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-08T13:34:53.831Z",
+  "updatedAt": "2021-08-13T12:55:32.139Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
