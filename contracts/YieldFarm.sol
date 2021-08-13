@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 import "./SeedToken.sol";
 import "./FruitToken.sol";
 
-contract TokenFarm {
+contract YieldFarm {
     
     // call it DefiBank
     string public name = "Yield farming app";

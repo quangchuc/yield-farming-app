@@ -9693,12 +9693,12 @@
         }
       },
       "links": {},
-      "address": "0xA989C2a6d2A691962245f8B571F6e106392d0e7f",
-      "transactionHash": "0x67c40731213edbd2b1c614583b7811c26990e4064aeb8e57368ab1c8975e599c"
+      "address": "0xB521a87D78eC5e6cDb540fe18480b791341241F2",
+      "transactionHash": "0x0e11bdccf661b386929b360bb3267a91dfc4e20ee707a0a159b59801e11e7f1f"
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-13T12:55:32.139Z",
+  "updatedAt": "2021-08-13T14:37:35.220Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
