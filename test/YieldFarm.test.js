@@ -15,4 +15,18 @@ contract('YieldFarm', (accounts) => {
           assert.equal(name, 'Seed Token')
         })
       })
+
+    describe('Fruit Token deployment', async () => {
+      it('has a name', async () => {
+        const name = await fruitToken.name()
+        assert.equal(name, 'Fruit Token')
+      })
+    })
+    
+    describe('Yield Farm deployment', async () => {
+      it('has a name', async () => {
+        const name = await yieldFarm.name()
+        assert.equal(name, 'Yield Farm')
+      })
+    })
 })
