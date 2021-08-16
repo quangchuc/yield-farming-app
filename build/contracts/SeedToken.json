@@ -8268,19 +8268,19 @@
     "absolutePath": "project:/contracts/SeedToken.sol",
     "exportedSymbols": {
       "Context": [
-        198
+        367
       ],
       "ERC20": [
-        732
+        901
       ],
       "IERC20": [
-        801
+        970
       ],
       "IERC20Metadata": [
-        822
+        991
       ],
       "SafeMath": [
-        935
+        1104
       ],
       "SeedToken": [
         136
@@ -8307,7 +8307,7 @@
         "id": 87,
         "nodeType": "ImportDirective",
         "scope": 137,
-        "sourceUnit": 733,
+        "sourceUnit": 902,
         "src": "62:32:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8320,7 +8320,7 @@
               "id": 88,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 732,
+              "referencedDeclaration": 901,
               "src": "120:5:2"
             },
             "id": 89,
@@ -8329,20 +8329,20 @@
           }
         ],
         "contractDependencies": [
-          198,
-          732,
-          801,
-          822
+          367,
+          901,
+          970,
+          991
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 136,
         "linearizedBaseContracts": [
           136,
-          732,
-          822,
-          801,
-          198
+          901,
+          991,
+          970,
+          367
         ],
         "name": "SeedToken",
         "nodeType": "ContractDefinition",
@@ -8510,7 +8510,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 767,
                       "src": "213:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8639,7 +8639,7 @@
                   "id": 93,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 732,
+                  "referencedDeclaration": 901,
                   "src": "174:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -8835,7 +8835,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 767,
                       "src": "417:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -8953,19 +8953,19 @@
     "absolutePath": "project:/contracts/SeedToken.sol",
     "exportedSymbols": {
       "Context": [
-        198
+        367
       ],
       "ERC20": [
-        732
+        901
       ],
       "IERC20": [
-        801
+        970
       ],
       "IERC20Metadata": [
-        822
+        991
       ],
       "SafeMath": [
-        935
+        1104
       ],
       "SeedToken": [
         136
@@ -8992,7 +8992,7 @@
         "id": 87,
         "nodeType": "ImportDirective",
         "scope": 137,
-        "sourceUnit": 733,
+        "sourceUnit": 902,
         "src": "62:32:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -9005,7 +9005,7 @@
               "id": 88,
               "name": "ERC20",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 732,
+              "referencedDeclaration": 901,
               "src": "120:5:2"
             },
             "id": 89,
@@ -9014,20 +9014,20 @@
           }
         ],
         "contractDependencies": [
-          198,
-          732,
-          801,
-          822
+          367,
+          901,
+          970,
+          991
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 136,
         "linearizedBaseContracts": [
           136,
-          732,
-          822,
-          801,
-          198
+          901,
+          991,
+          970,
+          367
         ],
         "name": "SeedToken",
         "nodeType": "ContractDefinition",
@@ -9195,7 +9195,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 767,
                       "src": "213:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -9324,7 +9324,7 @@
                   "id": 93,
                   "name": "ERC20",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 732,
+                  "referencedDeclaration": 901,
                   "src": "174:5:2"
                 },
                 "nodeType": "ModifierInvocation",
@@ -9520,7 +9520,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 598,
+                      "referencedDeclaration": 767,
                       "src": "417:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -9693,12 +9693,12 @@
         }
       },
       "links": {},
-      "address": "0x029Af0D3d589824B7A65B12E08E8961d8Dc28618",
-      "transactionHash": "0xeb9ef585567c11e30967202a7557d3834ca13c077da3c03d65b99ca717423baa"
+      "address": "0xA69DC223ea3cc364919B262DeCa1179B1a34C2BF",
+      "transactionHash": "0xbc08763a0ae4c2c1069d64b1dbc1e21542f82afa33e87f98dcc605582c8b6860"
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-14T14:45:46.773Z",
+  "updatedAt": "2021-08-15T20:10:32.798Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
