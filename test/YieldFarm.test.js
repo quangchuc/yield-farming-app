@@ -54,7 +54,7 @@ contract('YieldFarm', ([owner, investor]) => {
         let result
         // Check investor balance before staking
         result = await seedToken.balanceOf(investor)
-        assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct before staking')
+        assert.equal(result.toString(), tokens('100'), 'investor SEED wallet balance correct before staking')
 
         // Stake Mock DAI Tokens
         await seedToken.approve(yieldFarm.address, tokens('100'), { from: investor })
@@ -62,10 +62,10 @@ contract('YieldFarm', ([owner, investor]) => {
 
         // Check staking result
         result = await seedToken.balanceOf(investor)
-        assert.equal(result.toString(), tokens('0'), 'investor Mock DAI wallet balance correct after staking')
+        assert.equal(result.toString(), tokens('0'), 'investor SEED wallet balance correct after staking')
 
         result = await seedToken.balanceOf(yieldFarm.address)
-        assert.equal(result.toString(), tokens('100'), 'Token Farm Mock DAI balance correct after staking')
+        assert.equal(result.toString(), tokens('100'), 'Token Farm SEED balance correct after staking')
 
         result = await yieldFarm.stakingBalance(investor)
         assert.equal(result.toString(), tokens('100'), 'investor staking balance correct after staking')
@@ -78,7 +78,7 @@ contract('YieldFarm', ([owner, investor]) => {
 
         // Check balances after issuance
         result = await fruitToken.balanceOf(investor)
-        assert.equal(result.toString(), tokens('100'), 'investor DApp Token wallet balance correct affter issuance')
+        assert.equal(result.toString(), tokens('100'), 'investor FRUIT wallet balance correct affter issuance')
 
         // Ensure that only onwer can issue tokens
         await yieldFarm.issueTokens({ from: investor }).should.be.rejected;
@@ -88,10 +88,10 @@ contract('YieldFarm', ([owner, investor]) => {
 
         // Check results after unstaking
         result = await seedToken.balanceOf(investor)
-        assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct after staking')
+        assert.equal(result.toString(), tokens('100'), 'investor SEED wallet balance correct after staking')
 
         result = await seedToken.balanceOf(yieldFarm.address)
-        assert.equal(result.toString(), tokens('0'), 'Token Farm Mock DAI balance correct after staking')
+        assert.equal(result.toString(), tokens('0'), 'Token Farm SEED balance correct after staking')
 
         result = await yieldFarm.stakingBalance(investor)
         assert.equal(result.toString(), tokens('0'), 'investor staking balance correct after staking')
