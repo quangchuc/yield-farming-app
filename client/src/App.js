@@ -1,5 +1,14 @@
+import React, { Component } from 'react'
+import Web3 from 'web3'
+import SeedToken from '../contracts/SeedToken.sol'
+
+
 import logo from './logo.svg';
 import './App.css';
+
+
+
+
 
 function App() {
   return (
