@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Web3 from 'web3'
-import SeedToken from '../build/contracts/SeedToken.json'
-import FruitToken from '../build/contracts/FruitToken.json'
-import YieldFarm from '../build/contracts/YieldFarm.json'
+import SeedToken from './contracts/SeedToken.json'
+import FruitToken from './contracts/FruitToken.json'
+import YieldFarm from './contracts/YieldFarm.json'
 import Navbar from './Navbar'
 import Main from './Main'
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
