@@ -224,7 +224,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/extensions/IERC20Metadata.sol\":\"IERC20Metadata\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/extensions/IERC20.sol\":{\"keccak256\":\"0x06b70d96710cb8d6b60384f21b207812e14735155955173d0fbae261b2572e1a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://52be9917d724c86f8db6867a325382dc2250071f077ea5e4507a6b241350df15\",\"dweb:/ipfs/QmYYopcqjWANFHUwRcd7TmY2ErdRg1EdtwhQUxLKgtxrg3\"]},\"project:/contracts/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0xcb3c0f4c2da5adc3be34742c745a47327eb7104342f027827c19dd8113aff76a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e4c7d47a04fae9e6a47533c878318cb3b98031267a46bf2cd9b7a2abd6ed1acc\",\"dweb:/ipfs/QmXyXMtcPCVQwMbQdzqR7JBBSCf9VXm2omZq9RN5RHnDkv\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/extensions/IERC20Metadata.sol\":\"IERC20Metadata\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/extensions/IERC20.sol\":{\"keccak256\":\"0xf4f53a4a41cbaec51cd462d0caf1656a5bd540120c47580ebd713bf4106144a6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec0c5c1295fe890258f9f0a59a8e294c85d000643cac7118137e6f686fc35a68\",\"dweb:/ipfs/QmVPECA4oaen7M3wsCq5Xw9HLJYJpQApKN7kRhufaAj7pB\"]},\"project:/contracts/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x8fcbd8435ee1e86b87580587de8241d3c85745c77630340563a131b1c05efe6d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3e0ff4edb52746b5b396434d3111adbfc36e248d22e890fd73ee294eb41fc216\",\"dweb:/ipfs/QmcupFz2aieCb6swaY1spX4QqQDARrjCfESp4YVYLEWBYV\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -232,8 +232,8 @@
   "deployedGeneratedSources": [],
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"./IERC20.sol\";\r\n\r\ninterface IERC20Metadata is IERC20 {\r\n    function name() external view returns (string memory);\r\n\r\n    function symbol() external view returns (string memory);\r\n\r\n    function decimals() external view returns (uint8);\r\n}",
-  "sourcePath": "C:\\Users\\quang\\Documents\\GitHub\\yield_farming_app\\contracts\\extensions\\IERC20Metadata.sol",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity 0.8.0;\r\n\r\nimport \"./IERC20.sol\";\r\n\r\ninterface IERC20Metadata is IERC20 {\r\n    function name() external view returns (string memory);\r\n\r\n    function symbol() external view returns (string memory);\r\n\r\n    function decimals() external view returns (uint8);\r\n}",
+  "sourcePath": "C:\\Users\\quang\\Documents\\GitHub\\yield-farming-app\\contracts\\extensions\\IERC20Metadata.sol",
   "ast": {
     "absolutePath": "project:/contracts/extensions/IERC20Metadata.sol",
     "exportedSymbols": {
@@ -252,12 +252,11 @@
         "id": 972,
         "literals": [
           "solidity",
-          "^",
           "0.8",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "35:23:7"
+        "src": "35:22:7"
       },
       {
         "absolutePath": "project:/contracts/extensions/IERC20.sol",
@@ -266,7 +265,7 @@
         "nodeType": "ImportDirective",
         "scope": 992,
         "sourceUnit": 971,
-        "src": "62:22:7",
+        "src": "61:22:7",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -279,11 +278,11 @@
               "name": "IERC20",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 970,
-              "src": "116:6:7"
+              "src": "115:6:7"
             },
             "id": 975,
             "nodeType": "InheritanceSpecifier",
-            "src": "116:6:7"
+            "src": "115:6:7"
           }
         ],
         "contractDependencies": [
@@ -311,7 +310,7 @@
               "id": 976,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "143:2:7"
+              "src": "142:2:7"
             },
             "returnParameters": {
               "id": 979,
@@ -324,7 +323,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 980,
-                  "src": "169:13:7",
+                  "src": "168:13:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -335,7 +334,7 @@
                     "id": 977,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "169:6:7",
+                    "src": "168:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -344,10 +343,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "168:15:7"
+              "src": "167:15:7"
             },
             "scope": 991,
-            "src": "130:54:7",
+            "src": "129:54:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -364,7 +363,7 @@
               "id": 981,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "207:2:7"
+              "src": "206:2:7"
             },
             "returnParameters": {
               "id": 984,
@@ -377,7 +376,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 985,
-                  "src": "233:13:7",
+                  "src": "232:13:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -388,7 +387,7 @@
                     "id": 982,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "233:6:7",
+                    "src": "232:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -397,10 +396,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "232:15:7"
+              "src": "231:15:7"
             },
             "scope": 991,
-            "src": "192:56:7",
+            "src": "191:56:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -417,7 +416,7 @@
               "id": 986,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:7"
+              "src": "272:2:7"
             },
             "returnParameters": {
               "id": 989,
@@ -430,7 +429,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 990,
-                  "src": "299:5:7",
+                  "src": "298:5:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -441,7 +440,7 @@
                     "id": 987,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "299:5:7",
+                    "src": "298:5:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -450,20 +449,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "298:7:7"
+              "src": "297:7:7"
             },
             "scope": 991,
-            "src": "256:50:7",
+            "src": "255:50:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 992,
-        "src": "88:221:7"
+        "src": "87:221:7"
       }
     ],
-    "src": "35:274:7"
+    "src": "35:273:7"
   },
   "legacyAST": {
     "absolutePath": "project:/contracts/extensions/IERC20Metadata.sol",
@@ -483,12 +482,11 @@
         "id": 972,
         "literals": [
           "solidity",
-          "^",
           "0.8",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "35:23:7"
+        "src": "35:22:7"
       },
       {
         "absolutePath": "project:/contracts/extensions/IERC20.sol",
@@ -497,7 +495,7 @@
         "nodeType": "ImportDirective",
         "scope": 992,
         "sourceUnit": 971,
-        "src": "62:22:7",
+        "src": "61:22:7",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -510,11 +508,11 @@
               "name": "IERC20",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 970,
-              "src": "116:6:7"
+              "src": "115:6:7"
             },
             "id": 975,
             "nodeType": "InheritanceSpecifier",
-            "src": "116:6:7"
+            "src": "115:6:7"
           }
         ],
         "contractDependencies": [
@@ -542,7 +540,7 @@
               "id": 976,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "143:2:7"
+              "src": "142:2:7"
             },
             "returnParameters": {
               "id": 979,
@@ -555,7 +553,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 980,
-                  "src": "169:13:7",
+                  "src": "168:13:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -566,7 +564,7 @@
                     "id": 977,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "169:6:7",
+                    "src": "168:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -575,10 +573,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "168:15:7"
+              "src": "167:15:7"
             },
             "scope": 991,
-            "src": "130:54:7",
+            "src": "129:54:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -595,7 +593,7 @@
               "id": 981,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "207:2:7"
+              "src": "206:2:7"
             },
             "returnParameters": {
               "id": 984,
@@ -608,7 +606,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 985,
-                  "src": "233:13:7",
+                  "src": "232:13:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -619,7 +617,7 @@
                     "id": 982,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "233:6:7",
+                    "src": "232:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -628,10 +626,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "232:15:7"
+              "src": "231:15:7"
             },
             "scope": 991,
-            "src": "192:56:7",
+            "src": "191:56:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -648,7 +646,7 @@
               "id": 986,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:7"
+              "src": "272:2:7"
             },
             "returnParameters": {
               "id": 989,
@@ -661,7 +659,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 990,
-                  "src": "299:5:7",
+                  "src": "298:5:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -672,7 +670,7 @@
                     "id": 987,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "299:5:7",
+                    "src": "298:5:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -681,20 +679,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "298:7:7"
+              "src": "297:7:7"
             },
             "scope": 991,
-            "src": "256:50:7",
+            "src": "255:50:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 992,
-        "src": "88:221:7"
+        "src": "87:221:7"
       }
     ],
-    "src": "35:274:7"
+    "src": "35:273:7"
   },
   "compiler": {
     "name": "solc",
@@ -702,7 +700,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-22T11:34:47.386Z",
+  "updatedAt": "2021-08-24T07:52:44.574Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
