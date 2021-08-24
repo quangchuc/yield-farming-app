@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import dai from './images/dai.png'
+import seed from './images/seed.png'
+import fruit from './images/fruit.png'
 
 class Main extends Component {
 
@@ -14,10 +15,11 @@ class Main extends Component {
               <th scope="col">Reward Balance</th>
             </tr>
           </thead>
+
           <tbody>
             <tr>
-              <td>{window.web3.utils.fromWei(this.props.stakingBalance, 'Ether')} FRUIT</td>
-              <td>{window.web3.utils.fromWei(this.props.fruitTokenBalance, 'Ether')} SEED</td>
+              <td>{window.web3.utils.fromWei(this.props.stakingBalance, 'Ether')} SEED <img src={seed} height='32' alt=""/></td>
+              <td>{window.web3.utils.fromWei(this.props.fruitTokenBalance, 'Ether')} FRUIT <img src={fruit} height='32' alt=""/></td>
             </tr>
           </tbody>
         </table>
@@ -33,11 +35,11 @@ class Main extends Component {
                 amount = window.web3.utils.toWei(amount, 'Ether')
                 this.props.stakeTokens(amount)
               }}>
+                
               <div>
-                <label className="float-left"><b>Stake Tokens</b></label>
-                <span className="float-right text-muted">
+                <label className="float-right">
                   Balance: {window.web3.utils.fromWei(this.props.seedTokenBalance, 'Ether')}
-                </span>
+                </label>
               </div>
               <div className="input-group mb-4">
                 <input
@@ -48,12 +50,12 @@ class Main extends Component {
                   required />
                 <div className="input-group-append">
                   <div className="input-group-text">
-                    <img src={dai} height='32' alt=""/>
-                    &nbsp;&nbsp;&nbsp; FRUIT
+                    <img src={seed} height='32' alt=""/>
+                    &nbsp;&nbsp;&nbsp; SEED
                   </div>
                 </div>
               </div>
-              <button type="submit" className="btn btn-primary btn-block btn-lg">STAKE!</button>
+              <button type="submit" className="btn btn-primary btn-block btn-lg">STAKE</button>
             </form>
             <button
               type="submit"
@@ -62,7 +64,7 @@ class Main extends Component {
                 event.preventDefault()
                 this.props.unstakeTokens()
               }}>
-                UN-STAKE...
+                UNSTAKE
               </button>
           </div>
         </div>

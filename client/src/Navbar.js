@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import farmer from './images/farmer.png'
+import farm from './images/farm.png'
 
 class Navbar extends Component {
 
@@ -12,7 +12,7 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={farmer} width="30" height="30" className="d-inline-block align-top" alt="" />
+          <img src={farm} width="30" height="30" className="d-inline-block align-top" alt="" />
           &nbsp; Yield Farm
         </a>
 
